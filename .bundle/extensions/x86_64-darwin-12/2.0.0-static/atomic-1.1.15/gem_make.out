@@ -1,0 +1,20 @@
+/Users/matiashoyl/.rbenv/versions/2.0.0-p0/bin/ruby extconf.rb 
+checking for libkern/OSAtomic.h... yes
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling atomic_reference.c
+atomic_reference.c:57:59: warning: incompatible pointer types passing 'void **' to parameter of type 'volatile int64_t *' (aka 'volatile long long *') [-Wincompatible-pointer-types]
+    if (OSAtomicCompareAndSwap64(expect_value, new_value, &DATA_PTR(self))) {
+                                                          ^~~~~~~~~~~~~~~
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/libkern/OSAtomic.h:501:93: note: passing argument to parameter '__theValue' here
+bool    OSAtomicCompareAndSwap64( int64_t __oldValue, int64_t __newValue, volatile int64_t *__theValue );
+                                                                                            ^
+1 warning generated.
+linking shared-object atomic_reference.bundle
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 atomic_reference.bundle ./.gem.20140311-9993-10lb08k
+installing default atomic_reference libraries
