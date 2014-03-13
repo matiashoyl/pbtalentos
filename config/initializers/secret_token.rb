@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Pbt::Application.config.secret_key_base = '4221eec4358ee49d7ba5551935329d70411ab8398366279bed72f237eddc729d50805ff2c3d9ee3666a7b4ab7ba20d6df7716c2319261bcf68c08614359c0c94'
+Fch::Application.config.secret_key_base = 'd6fca48a3881adf883f7e1709f226d2c96fac96658232f1cb7f01d2414b39e197cffa3e21cd80ab26c5210d9f6004b6e99b5778bad3a0f6622dfb8ed304a7c70'

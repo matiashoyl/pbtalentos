@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Pbt::Application.load_tasks
+Fch::Application.load_tasks
