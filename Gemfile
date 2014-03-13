@@ -45,11 +45,14 @@ end
 
 group :production do
   gem 'pg'
+  gem 'thin'
 end
 
 gem "font-awesome-rails"
 
 gem 'rake', '~> 0.9.6'
+
+gem 'heroku'
 
 
 # Use ActiveModel has_secure_password
