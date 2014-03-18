@@ -8,5 +8,5 @@ compiling parser.c
 linking shared-object json/ext/parser.bundle
 
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 parser.bundle ./.gem.20140311-9993-1jqbdgc/json/ext
+/usr/bin/install -c -m 0755 parser.bundle ./.gem.20140315-42825-q9931/json/ext
 installing default parser libraries

@@ -8,5 +8,5 @@ compiling debug_inspector.c
 linking shared-object debug_inspector.bundle
 
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 debug_inspector.bundle ./.gem.20140311-9993-buirf4
+/usr/bin/install -c -m 0755 debug_inspector.bundle ./.gem.20140315-42825-1ajuzmg
 installing default debug_inspector libraries

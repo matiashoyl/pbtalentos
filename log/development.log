@@ -32699,785 +32699,21 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/" for 127.0.0.1 at 2014-03-13 18:05:07 -0300
+Started GET "/" for 127.0.0.1 at 2014-03-15 18:34:57 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 219ms (Views: 201.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 18:45:30 -0300
 Processing by HomeController#index as HTML
   Rendered home/index.html.erb within layouts/application (3.2ms)
-Completed 200 OK in 288ms (Views: 261.2ms | ActiveRecord: 0.0ms)
+Completed 200 OK in 271ms (Views: 253.1ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/css/bootstrap.css" for 127.0.0.1 at 2014-03-13 18:05:08 -0300
+Started GET "/css/bootstrap.min.css" for 127.0.0.1 at 2014-03-15 18:45:30 -0300
 
-ActionController::RoutingError (No route matches [GET] "/css/bootstrap.css"):
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
-  .bundle/gems/quiet_assets-1.0.2/lib/quiet_assets.rb:18:in `call_with_quiet_assets'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
-
-
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.6ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (34.8ms)
-
-
-Started GET "/fonts/font-awesome/css/font-awesome.min.css" for 127.0.0.1 at 2014-03-13 18:05:08 -0300
-
-ActionController::RoutingError (No route matches [GET] "/fonts/font-awesome/css/font-awesome.min.css"):
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
-  .bundle/gems/quiet_assets-1.0.2/lib/quiet_assets.rb:18:in `call_with_quiet_assets'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
-
-
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (19.7ms)
-
-
-Started GET "/css/style.css" for 127.0.0.1 at 2014-03-13 18:05:08 -0300
-
-ActionController::RoutingError (No route matches [GET] "/css/style.css"):
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
-  .bundle/gems/quiet_assets-1.0.2/lib/quiet_assets.rb:18:in `call_with_quiet_assets'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
-
-
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (20.4ms)
-
-
-Started GET "/js/jquery-1.9.1.min.js" for 127.0.0.1 at 2014-03-13 18:05:08 -0300
-
-ActionController::RoutingError (No route matches [GET] "/js/jquery-1.9.1.min.js"):
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
-  .bundle/gems/quiet_assets-1.0.2/lib/quiet_assets.rb:18:in `call_with_quiet_assets'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
-
-
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (19.7ms)
-
-
-Started GET "/js/modernizr.custom.js" for 127.0.0.1 at 2014-03-13 18:05:08 -0300
-
-ActionController::RoutingError (No route matches [GET] "/js/modernizr.custom.js"):
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
-  .bundle/gems/quiet_assets-1.0.2/lib/quiet_assets.rb:18:in `call_with_quiet_assets'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
-
-
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.5ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (24.9ms)
-
-
-Started GET "/js/masonry.pkgd.min.js" for 127.0.0.1 at 2014-03-13 18:05:08 -0300
-
-ActionController::RoutingError (No route matches [GET] "/js/masonry.pkgd.min.js"):
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
-  .bundle/gems/quiet_assets-1.0.2/lib/quiet_assets.rb:18:in `call_with_quiet_assets'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
-
-
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (24.1ms)
-
-
-Started GET "/js/imagesloaded.pkgd.min.js" for 127.0.0.1 at 2014-03-13 18:05:08 -0300
-
-ActionController::RoutingError (No route matches [GET] "/js/imagesloaded.pkgd.min.js"):
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
-  .bundle/gems/quiet_assets-1.0.2/lib/quiet_assets.rb:18:in `call_with_quiet_assets'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
-
-
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.6ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (25.3ms)
-
-
-Started GET "/js/bootstrap.min.js" for 127.0.0.1 at 2014-03-13 18:05:09 -0300
-
-ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
-  .bundle/gems/quiet_assets-1.0.2/lib/quiet_assets.rb:18:in `call_with_quiet_assets'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
-
-
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (24.7ms)
-
-
-Started GET "/js/classie.js" for 127.0.0.1 at 2014-03-13 18:05:09 -0300
-
-ActionController::RoutingError (No route matches [GET] "/js/classie.js"):
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
-  .bundle/gems/quiet_assets-1.0.2/lib/quiet_assets.rb:18:in `call_with_quiet_assets'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
-
-
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (21.1ms)
-
-
-Started GET "/js/AnimOnScroll.js" for 127.0.0.1 at 2014-03-13 18:05:09 -0300
-
-ActionController::RoutingError (No route matches [GET] "/js/AnimOnScroll.js"):
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
-  .bundle/gems/quiet_assets-1.0.2/lib/quiet_assets.rb:18:in `call_with_quiet_assets'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
-
-
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (25.7ms)
-
-
-Started GET "/js/init.js" for 127.0.0.1 at 2014-03-13 18:05:09 -0300
-
-ActionController::RoutingError (No route matches [GET] "/js/init.js"):
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
-  .bundle/gems/quiet_assets-1.0.2/lib/quiet_assets.rb:18:in `call_with_quiet_assets'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
-
-
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (59.2ms)
-
-
-Started GET "/img/mountains.png" for 127.0.0.1 at 2014-03-13 18:05:09 -0300
-
-ActionController::RoutingError (No route matches [GET] "/img/mountains.png"):
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
-  .bundle/gems/quiet_assets-1.0.2/lib/quiet_assets.rb:18:in `call_with_quiet_assets'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
-
-
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (24.5ms)
-
-
-Started GET "/img/sintel-bedroom.png" for 127.0.0.1 at 2014-03-13 18:05:09 -0300
-
-ActionController::RoutingError (No route matches [GET] "/img/sintel-bedroom.png"):
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
-  .bundle/gems/quiet_assets-1.0.2/lib/quiet_assets.rb:18:in `call_with_quiet_assets'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
-
-
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (20.5ms)
-
-
-Started GET "/img/sintel-snowscape.jpg" for 127.0.0.1 at 2014-03-13 18:05:09 -0300
-
-ActionController::RoutingError (No route matches [GET] "/img/sintel-snowscape.jpg"):
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
-  .bundle/gems/quiet_assets-1.0.2/lib/quiet_assets.rb:18:in `call_with_quiet_assets'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
-
-
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (29.1ms)
-
-
-Started GET "/img/sintel-wallpaper-ishtar.jpg" for 127.0.0.1 at 2014-03-13 18:05:09 -0300
-
-ActionController::RoutingError (No route matches [GET] "/img/sintel-wallpaper-ishtar.jpg"):
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
-  .bundle/gems/quiet_assets-1.0.2/lib/quiet_assets.rb:18:in `call_with_quiet_assets'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
-
-
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.2ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (23.0ms)
-
-
-Started GET "/img/sintel-bamboo-2.jpg" for 127.0.0.1 at 2014-03-13 18:05:09 -0300
-
-ActionController::RoutingError (No route matches [GET] "/img/sintel-bamboo-2.jpg"):
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
-  .bundle/gems/quiet_assets-1.0.2/lib/quiet_assets.rb:18:in `call_with_quiet_assets'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
-
-
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (20.3ms)
-
-
-Started GET "/img/ishtar-alley.png" for 127.0.0.1 at 2014-03-13 18:05:09 -0300
-
-ActionController::RoutingError (No route matches [GET] "/img/ishtar-alley.png"):
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
-  .bundle/gems/quiet_assets-1.0.2/lib/quiet_assets.rb:18:in `call_with_quiet_assets'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
-
-
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (54.3ms)
-
-
-Started GET "/img/sintel-town-concept.jpg" for 127.0.0.1 at 2014-03-13 18:05:09 -0300
-
-ActionController::RoutingError (No route matches [GET] "/img/sintel-town-concept.jpg"):
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
-  .bundle/gems/quiet_assets-1.0.2/lib/quiet_assets.rb:18:in `call_with_quiet_assets'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
-
-
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (18.6ms)
-
-
-Started GET "/img/night-mountains.png" for 127.0.0.1 at 2014-03-13 18:05:09 -0300
-
-ActionController::RoutingError (No route matches [GET] "/img/night-mountains.png"):
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
-  .bundle/gems/quiet_assets-1.0.2/lib/quiet_assets.rb:18:in `call_with_quiet_assets'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
-
-
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.6ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (23.6ms)
-
-
-Started GET "/img/dribbble-logo.png" for 127.0.0.1 at 2014-03-13 18:05:09 -0300
-
-ActionController::RoutingError (No route matches [GET] "/img/dribbble-logo.png"):
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
-  .bundle/gems/quiet_assets-1.0.2/lib/quiet_assets.rb:18:in `call_with_quiet_assets'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
-
-
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (19.2ms)
-
-
-Started GET "/img/portrait1.jpg" for 127.0.0.1 at 2014-03-13 18:05:09 -0300
-
-ActionController::RoutingError (No route matches [GET] "/img/portrait1.jpg"):
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
-  .bundle/gems/quiet_assets-1.0.2/lib/quiet_assets.rb:18:in `call_with_quiet_assets'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
-
-
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (17.1ms)
-
-
-Started GET "/img/portrait2.jpg" for 127.0.0.1 at 2014-03-13 18:05:09 -0300
-
-ActionController::RoutingError (No route matches [GET] "/img/portrait2.jpg"):
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
-  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
-  .bundle/gems/quiet_assets-1.0.2/lib/quiet_assets.rb:18:in `call_with_quiet_assets'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
-  .bundle/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
-  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
-  .bundle/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
-  .bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
-  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
-
-
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (17.3ms)
-
-
-Started GET "/img/portrait3.jpg" for 127.0.0.1 at 2014-03-13 18:05:09 -0300
-
-ActionController::RoutingError (No route matches [GET] "/img/portrait3.jpg"):
+ActionController::RoutingError (No route matches [GET] "/css/bootstrap.min.css"):
   .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
   .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
   .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
@@ -33505,534 +32741,1942 @@ ActionController::RoutingError (No route matches [GET] "/img/portrait3.jpg"):
 
 
   Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.7ms)
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (34.5ms)
+
+
+Started GET "/css/font-awesome.css" for 127.0.0.1 at 2014-03-15 18:45:30 -0300
+
+ActionController::RoutingError (No route matches [GET] "/css/font-awesome.css"):
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
+  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/quiet_assets-1.0.2/lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+  .bundle/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
+  .bundle/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (18.2ms)
+
+
+Started GET "/css/flexslider.css" for 127.0.0.1 at 2014-03-15 18:45:31 -0300
+
+ActionController::RoutingError (No route matches [GET] "/css/flexslider.css"):
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
+  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/quiet_assets-1.0.2/lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+  .bundle/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
+  .bundle/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (19.4ms)
+
+
+Started GET "/css/designr-theme-cyan.css" for 127.0.0.1 at 2014-03-15 18:45:31 -0300
+
+ActionController::RoutingError (No route matches [GET] "/css/designr-theme-cyan.css"):
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
+  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/quiet_assets-1.0.2/lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+  .bundle/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
+  .bundle/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
   Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
-  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (52.9ms)
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (17.1ms)
 
 
-Started GET "/" for 127.0.0.1 at 2014-03-13 18:07:05 -0300
+Started GET "/" for 127.0.0.1 at 2014-03-15 18:46:19 -0300
 Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (1.9ms)
-Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+  Rendered home/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 183ms (Views: 163.7ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/" for 127.0.0.1 at 2014-03-13 18:09:27 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (1.8ms)
-Completed 200 OK in 14ms (Views: 11.4ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 18:17:31 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (6.5ms)
-Completed 200 OK in 35ms (Views: 26.7ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 18:18:14 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.2ms)
-Completed 200 OK in 8ms (Views: 6.0ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 18:18:46 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (1.3ms)
-Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 18:18:53 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (1.7ms)
-Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 18:23:56 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.2ms)
-Completed 200 OK in 46ms (Views: 45.0ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 18:24:05 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.3ms)
-Completed 200 OK in 76ms (Views: 74.7ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 18:26:41 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.2ms)
-Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 18:26:50 -0300
+Started GET "/" for 127.0.0.1 at 2014-03-15 18:46:23 -0300
 Processing by HomeController#index as HTML
   Rendered home/index.html.erb within layouts/application (0.1ms)
-Completed 200 OK in 33ms (Views: 32.7ms | ActiveRecord: 0.0ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/" for 127.0.0.1 at 2014-03-13 18:32:50 -0300
+Started GET "/" for 127.0.0.1 at 2014-03-15 18:46:28 -0300
 Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (1.5ms)
-Completed 200 OK in 12ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/" for 127.0.0.1 at 2014-03-13 18:39:00 -0300
+Started GET "/" for 127.0.0.1 at 2014-03-15 18:50:30 -0300
 Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (3.4ms)
-Completed 200 OK in 15ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 15ms (Views: 14.7ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/" for 127.0.0.1 at 2014-03-13 18:40:23 -0300
+Started GET "/" for 127.0.0.1 at 2014-03-15 18:51:52 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 18:53:44 -0300
 Processing by HomeController#index as HTML
   Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 500  in 60ms
+
+Sprockets::FileNotFound - couldn't find file 'libs/modernizr.min'
+  (in /Users/matiashoyl/Ruby/pbtalentos/app/assets/javascripts/application.js:13):
+  sprockets (2.10.1) lib/sprockets/context.rb:106:in `resolve'
+  sprockets (2.10.1) lib/sprockets/context.rb:146:in `require_asset'
+  sprockets (2.10.1) lib/sprockets/directive_processor.rb:217:in `process_require_directive'
+  sprockets (2.10.1) lib/sprockets/directive_processor.rb:167:in `block in process_directives'
+  sprockets (2.10.1) lib/sprockets/directive_processor.rb:165:in `process_directives'
+  sprockets (2.10.1) lib/sprockets/directive_processor.rb:99:in `evaluate'
+  tilt (1.4.1) lib/tilt/template.rb:103:in `render'
+  sprockets (2.10.1) lib/sprockets/context.rb:197:in `block in evaluate'
+  sprockets (2.10.1) lib/sprockets/context.rb:194:in `evaluate'
+  sprockets (2.10.1) lib/sprockets/processed_asset.rb:12:in `initialize'
+  sprockets (2.10.1) lib/sprockets/base.rb:374:in `block in build_asset'
+  sprockets (2.10.1) lib/sprockets/base.rb:395:in `circular_call_protection'
+  sprockets (2.10.1) lib/sprockets/base.rb:373:in `build_asset'
+  sprockets (2.10.1) lib/sprockets/index.rb:94:in `block in build_asset'
+  sprockets (2.10.1) lib/sprockets/caching.rb:58:in `cache_asset'
+  sprockets (2.10.1) lib/sprockets/index.rb:93:in `build_asset'
+  sprockets (2.10.1) lib/sprockets/base.rb:287:in `find_asset'
+  sprockets (2.10.1) lib/sprockets/index.rb:61:in `find_asset'
+  sprockets (2.10.1) lib/sprockets/bundled_asset.rb:37:in `init_with'
+  sprockets (2.10.1) lib/sprockets/asset.rb:24:in `from_hash'
+  sprockets (2.10.1) lib/sprockets/caching.rb:54:in `cache_asset'
+  sprockets (2.10.1) lib/sprockets/index.rb:93:in `build_asset'
+  sprockets (2.10.1) lib/sprockets/base.rb:287:in `find_asset'
+  sprockets (2.10.1) lib/sprockets/index.rb:61:in `find_asset'
+  sprockets (2.10.1) lib/sprockets/environment.rb:75:in `find_asset'
+  sprockets (2.10.1) lib/sprockets/base.rb:295:in `[]'
+  sprockets-rails (2.0.1) lib/sprockets/rails/helper.rb:144:in `lookup_asset_for_path'
+  sprockets-rails (2.0.1) lib/sprockets/rails/helper.rb:91:in `block in javascript_include_tag'
+  sprockets-rails (2.0.1) lib/sprockets/rails/helper.rb:90:in `javascript_include_tag'
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__773326527802321136_70151057166820'
+  actionpack (4.0.2) lib/action_view/template.rb:143:in `block in render'
+  activesupport (4.0.2) lib/active_support/notifications.rb:161:in `instrument'
+  actionpack (4.0.2) lib/action_view/template.rb:141:in `render'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionpack (4.0.2) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.2) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.2) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.2) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.2) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  activesupport (4.0.2) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.2) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.2) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.2) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.2) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:403:in `_run__2945540723204442955__process_action__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.2) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.2) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.2) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.2) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.2) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  meta_request (0.2.8) lib/meta_request/middlewares/app_request_handler.rb:13:in `call'
+  rack-contrib (1.1.0) lib/rack/contrib/response_headers.rb:17:in `call'
+  meta_request (0.2.8) lib/meta_request/middlewares/headers.rb:16:in `call'
+  meta_request (0.2.8) lib/meta_request/middlewares/meta_request_handler.rb:13:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.2) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:373:in `_run__2576226840803009657__call__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (1.1.0) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (1.1.0) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (1.1.0) lib/better_errors/middleware.rb:56:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/70151078359640/variables" for 127.0.0.1 at 2014-03-15 18:53:44 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 18:53:55 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 500  in 20ms
+
+Sprockets::FileNotFound - couldn't find file 'libs/modernizr.min'
+  (in /Users/matiashoyl/Ruby/pbtalentos/app/assets/javascripts/application.js:13):
+  sprockets (2.10.1) lib/sprockets/context.rb:106:in `resolve'
+  sprockets (2.10.1) lib/sprockets/context.rb:146:in `require_asset'
+  sprockets (2.10.1) lib/sprockets/directive_processor.rb:217:in `process_require_directive'
+  sprockets (2.10.1) lib/sprockets/directive_processor.rb:167:in `block in process_directives'
+  sprockets (2.10.1) lib/sprockets/directive_processor.rb:165:in `process_directives'
+  sprockets (2.10.1) lib/sprockets/directive_processor.rb:99:in `evaluate'
+  tilt (1.4.1) lib/tilt/template.rb:103:in `render'
+  sprockets (2.10.1) lib/sprockets/context.rb:197:in `block in evaluate'
+  sprockets (2.10.1) lib/sprockets/context.rb:194:in `evaluate'
+  sprockets (2.10.1) lib/sprockets/processed_asset.rb:12:in `initialize'
+  sprockets (2.10.1) lib/sprockets/base.rb:374:in `block in build_asset'
+  sprockets (2.10.1) lib/sprockets/base.rb:395:in `circular_call_protection'
+  sprockets (2.10.1) lib/sprockets/base.rb:373:in `build_asset'
+  sprockets (2.10.1) lib/sprockets/index.rb:94:in `block in build_asset'
+  sprockets (2.10.1) lib/sprockets/caching.rb:58:in `cache_asset'
+  sprockets (2.10.1) lib/sprockets/index.rb:93:in `build_asset'
+  sprockets (2.10.1) lib/sprockets/base.rb:287:in `find_asset'
+  sprockets (2.10.1) lib/sprockets/index.rb:61:in `find_asset'
+  sprockets (2.10.1) lib/sprockets/bundled_asset.rb:37:in `init_with'
+  sprockets (2.10.1) lib/sprockets/asset.rb:24:in `from_hash'
+  sprockets (2.10.1) lib/sprockets/caching.rb:54:in `cache_asset'
+  sprockets (2.10.1) lib/sprockets/index.rb:93:in `build_asset'
+  sprockets (2.10.1) lib/sprockets/base.rb:287:in `find_asset'
+  sprockets (2.10.1) lib/sprockets/index.rb:61:in `find_asset'
+  sprockets (2.10.1) lib/sprockets/environment.rb:75:in `find_asset'
+  sprockets (2.10.1) lib/sprockets/base.rb:295:in `[]'
+  sprockets-rails (2.0.1) lib/sprockets/rails/helper.rb:144:in `lookup_asset_for_path'
+  sprockets-rails (2.0.1) lib/sprockets/rails/helper.rb:91:in `block in javascript_include_tag'
+  sprockets-rails (2.0.1) lib/sprockets/rails/helper.rb:90:in `javascript_include_tag'
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__773326527802321136_70151069517060'
+  actionpack (4.0.2) lib/action_view/template.rb:143:in `block in render'
+  activesupport (4.0.2) lib/active_support/notifications.rb:161:in `instrument'
+  actionpack (4.0.2) lib/action_view/template.rb:141:in `render'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionpack (4.0.2) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.2) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.2) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.2) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.2) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  activesupport (4.0.2) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.2) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.2) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.2) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.2) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:403:in `_run__2945540723204442955__process_action__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.2) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.2) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.2) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.2) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.2) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  meta_request (0.2.8) lib/meta_request/middlewares/app_request_handler.rb:13:in `call'
+  rack-contrib (1.1.0) lib/rack/contrib/response_headers.rb:17:in `call'
+  meta_request (0.2.8) lib/meta_request/middlewares/headers.rb:16:in `call'
+  meta_request (0.2.8) lib/meta_request/middlewares/meta_request_handler.rb:13:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.2) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:373:in `_run__2576226840803009657__call__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (1.1.0) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (1.1.0) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (1.1.0) lib/better_errors/middleware.rb:56:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/70151069834020/variables" for 127.0.0.1 at 2014-03-15 18:53:55 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 18:54:27 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 18:54:40 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 18:55:47 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.3ms)
 Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/" for 127.0.0.1 at 2014-03-13 18:41:06 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.2ms)
-Completed 200 OK in 84ms (Views: 82.9ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 18:41:45 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.2ms)
-Completed 200 OK in 69ms (Views: 66.9ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 18:43:07 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.3ms)
-Completed 200 OK in 70ms (Views: 69.5ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 18:43:28 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.2ms)
-Completed 200 OK in 32ms (Views: 31.4ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 18:43:35 -0300
+Started GET "/" for 127.0.0.1 at 2014-03-15 18:56:22 -0300
 Processing by HomeController#index as HTML
   Rendered home/index.html.erb within layouts/application (0.1ms)
-Completed 200 OK in 35ms (Views: 34.1ms | ActiveRecord: 0.0ms)
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/" for 127.0.0.1 at 2014-03-13 18:43:40 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.1ms)
-Completed 200 OK in 35ms (Views: 33.7ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 18:43:47 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.1ms)
-Completed 200 OK in 69ms (Views: 67.6ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 18:49:18 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.5ms)
-Completed 200 OK in 95ms (Views: 94.2ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 18:54:13 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.1ms)
-Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 18:54:37 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.1ms)
-Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 18:54:53 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.2ms)
-Completed 200 OK in 60ms (Views: 58.9ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 18:55:35 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.1ms)
-Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 18:56:14 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.8ms)
-Completed 200 OK in 10ms (Views: 8.5ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 18:57:41 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (1.3ms)
-Completed 200 OK in 10ms (Views: 8.5ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 18:59:12 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.2ms)
-Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 18:59:47 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.1ms)
-Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:01:27 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.7ms)
-Completed 200 OK in 45ms (Views: 44.0ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:01:35 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.1ms)
-Completed 200 OK in 67ms (Views: 65.8ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:05:00 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.5ms)
-Completed 200 OK in 86ms (Views: 84.4ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:06:33 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.2ms)
-Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:06:51 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.1ms)
-Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:07:19 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.1ms)
-Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:07:41 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.2ms)
-Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:10:35 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.1ms)
-Completed 200 OK in 78ms (Views: 77.3ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:12:02 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.5ms)
-Completed 200 OK in 53ms (Views: 51.4ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:12:22 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.1ms)
-Completed 200 OK in 32ms (Views: 31.6ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:12:47 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.1ms)
-Completed 200 OK in 73ms (Views: 72.2ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:13:13 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.2ms)
-Completed 200 OK in 63ms (Views: 62.3ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:13:19 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.1ms)
-Completed 200 OK in 69ms (Views: 68.1ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:13:35 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.2ms)
-Completed 200 OK in 37ms (Views: 36.1ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:16:02 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (2.8ms)
-Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:16:22 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (1.7ms)
-Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:16:27 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (1.2ms)
-Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:16:52 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (1.9ms)
-Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:17:01 -0300
+Started GET "/" for 127.0.0.1 at 2014-03-15 18:56:45 -0300
 Processing by HomeController#index as HTML
   Rendered home/index.html.erb within layouts/application (1.6ms)
-Completed 200 OK in 10ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:17:34 -0300
+Started GET "/" for 127.0.0.1 at 2014-03-15 18:57:27 -0300
 Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (2.3ms)
-Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:18:48 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (1.7ms)
-Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:19:37 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (2.1ms)
+  Rendered home/index.html.erb within layouts/application (1.6ms)
 Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:19:55 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (1.1ms)
-Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:20:50 -0300
+Started GET "/" for 127.0.0.1 at 2014-03-15 18:58:24 -0300
 Processing by HomeController#index as HTML
   Rendered home/index.html.erb within layouts/application (1.4ms)
-Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+Completed 200 OK in 45ms (Views: 43.6ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:21:19 -0300
+Started GET "/" for 127.0.0.1 at 2014-03-15 18:58:46 -0300
 Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (1.6ms)
-Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:21:32 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (1.5ms)
-Completed 200 OK in 10ms (Views: 8.3ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:21:56 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (1.9ms)
-Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:24:39 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (1.2ms)
-Completed 200 OK in 10ms (Views: 8.4ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:27:30 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (1.3ms)
-Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:27:49 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (1.3ms)
-Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:28:41 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (1.3ms)
-Completed 200 OK in 13ms (Views: 11.1ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:29:37 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (1.7ms)
-Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:30:12 -0300
+Started GET "/" for 127.0.0.1 at 2014-03-15 18:59:12 -0300
 Processing by HomeController#index as HTML
   Rendered home/index.html.erb within layouts/application (1.4ms)
-Completed 200 OK in 10ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+Completed 200 OK in 49ms (Views: 48.1ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:30:51 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (1.2ms)
-Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:31:24 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.2ms)
-Completed 200 OK in 100ms (Views: 98.1ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:31:32 -0300
+Started GET "/" for 127.0.0.1 at 2014-03-15 18:59:21 -0300
 Processing by HomeController#index as HTML
   Rendered home/index.html.erb within layouts/application (0.1ms)
-Completed 200 OK in 32ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:32:17 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.3ms)
-Completed 200 OK in 55ms (Views: 53.3ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:32:57 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.1ms)
-Completed 200 OK in 76ms (Views: 75.0ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:33:28 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.2ms)
-Completed 200 OK in 71ms (Views: 69.5ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:33:40 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.1ms)
-Completed 200 OK in 32ms (Views: 31.3ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:33:50 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.1ms)
-Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:36:09 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.2ms)
-Completed 200 OK in 41ms (Views: 40.1ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:37:28 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (1.2ms)
-Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:38:02 -0300
+Started GET "/" for 127.0.0.1 at 2014-03-15 18:59:26 -0300
 Processing by HomeController#index as HTML
   Rendered home/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 18:59:42 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 16ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:00:00 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 13ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:00:10 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:00:25 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:00:38 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:01:04 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.9ms)
 Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:38:36 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (1.1ms)
-Completed 200 OK in 9ms (Views: 7.1ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:39:05 -0300
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:06:04 -0300
 Processing by HomeController#index as HTML
   Rendered home/index.html.erb within layouts/application (1.7ms)
-Completed 200 OK in 11ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:39:29 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (1.2ms)
-Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:39:49 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (1.1ms)
-Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:42:01 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (1.6ms)
-Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:52:35 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (1.7ms)
-Completed 200 OK in 12ms (Views: 10.4ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:52:51 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (1.7ms)
-Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:53:11 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (2.0ms)
-Completed 200 OK in 13ms (Views: 11.0ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:53:44 -0300
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:06:36 -0300
 Processing by HomeController#index as HTML
   Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 46ms (Views: 44.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:07:58 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 81ms (Views: 79.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:10:06 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 54ms (Views: 52.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:10:30 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:10:45 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:11:07 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:11:25 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:12:11 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 83ms (Views: 82.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:12:20 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 69ms (Views: 67.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:12:37 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 65ms (Views: 64.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:12:40 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 68ms (Views: 67.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:13:44 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:16:30 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 63ms (Views: 61.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:18:05 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 75ms (Views: 73.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-15 19:18:13 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 75ms (Views: 74.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 16:57:32 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 190ms (Views: 167.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fonts/fontawesome-webfont.woff?v=4.0.3" for 127.0.0.1 at 2014-03-17 16:57:33 -0300
+
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.woff"):
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
+  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/quiet_assets-1.0.2/lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+  .bundle/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
+  .bundle/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.6ms)
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (32.8ms)
+
+
+Started GET "/fonts/fontawesome-webfont.ttf?v=4.0.3" for 127.0.0.1 at 2014-03-17 16:57:33 -0300
+
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.ttf"):
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
+  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/quiet_assets-1.0.2/lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+  .bundle/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
+  .bundle/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.5ms)
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (25.7ms)
+
+
+Started GET "/fonts/fontawesome-webfont.svg?v=4.0.3" for 127.0.0.1 at 2014-03-17 16:57:33 -0300
+
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.svg"):
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
+  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/quiet_assets-1.0.2/lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+  .bundle/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
+  .bundle/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (19.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:00:40 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 174ms (Views: 154.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fonts/fontawesome-webfont.woff?v=4.0.3" for 127.0.0.1 at 2014-03-17 17:00:41 -0300
+
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.woff"):
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
+  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/quiet_assets-1.0.2/lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+  .bundle/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
+  .bundle/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.7ms)
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.3ms)
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (40.0ms)
+
+
+Started GET "/fonts/fontawesome-webfont.ttf?v=4.0.3" for 127.0.0.1 at 2014-03-17 17:00:41 -0300
+
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.ttf"):
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
+  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/quiet_assets-1.0.2/lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+  .bundle/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
+  .bundle/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (26.8ms)
+
+
+Started GET "/fonts/fontawesome-webfont.svg?v=4.0.3" for 127.0.0.1 at 2014-03-17 17:00:41 -0300
+
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.svg"):
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
+  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/quiet_assets-1.0.2/lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+  .bundle/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
+  .bundle/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (71.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:02:35 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 139ms (Views: 118.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fonts/fontawesome-webfont.woff?v=4.0.3" for 127.0.0.1 at 2014-03-17 17:02:36 -0300
+
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.woff"):
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
+  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/quiet_assets-1.0.2/lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+  .bundle/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
+  .bundle/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.7ms)
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (78.8ms)
+
+
+Started GET "/fonts/fontawesome-webfont.ttf?v=4.0.3" for 127.0.0.1 at 2014-03-17 17:02:36 -0300
+
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.ttf"):
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
+  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/quiet_assets-1.0.2/lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+  .bundle/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
+  .bundle/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.3ms)
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (30.2ms)
+
+
+Started GET "/fonts/fontawesome-webfont.svg?v=4.0.3" for 127.0.0.1 at 2014-03-17 17:02:36 -0300
+
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.svg"):
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
+  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
+  .bundle/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
+  .bundle/gems/quiet_assets-1.0.2/lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  .bundle/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+  .bundle/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
+  .bundle/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  .bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/matiashoyl/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendered .bundle/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (28.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:05:43 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 186ms (Views: 167.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:09:08 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:09:48 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:10:47 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:11:29 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.1ms)
 Completed 200 OK in 13ms (Views: 11.3ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:55:24 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (1.0ms)
-Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:55:31 -0300
-Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (0.2ms)
-Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:55:57 -0300
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:11:53 -0300
 Processing by HomeController#index as HTML
   Rendered home/index.html.erb within layouts/application (1.3ms)
-Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+Completed 200 OK in 15ms (Views: 13.6ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:56:19 -0300
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:12:16 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 14ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:12:44 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:13:16 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:13:29 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 15ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:14:27 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 48ms (Views: 47.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:15:02 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 170ms (Views: 169.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:15:28 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:15:44 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:16:16 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:16:24 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:16:33 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:17:16 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 52ms (Views: 50.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:17:34 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:17:43 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 47ms (Views: 45.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:17:58 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:18:10 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:18:28 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:18:49 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:19:10 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:19:20 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:20:25 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:21:02 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:21:30 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:21:43 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:21:52 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 44ms (Views: 43.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:22:02 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:22:57 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:23:27 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:23:37 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:23:53 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:24:12 -0300
 Processing by HomeController#index as HTML
   Rendered home/index.html.erb within layouts/application (0.1ms)
-Completed 200 OK in 10ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+Completed 200 OK in 83ms (Views: 81.4ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:59:43 -0300
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:24:22 -0300
 Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (3.3ms)
-Completed 200 OK in 150ms (Views: 130.4ms | ActiveRecord: 0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 67ms (Views: 65.5ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/" for 127.0.0.1 at 2014-03-13 19:59:59 -0300
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:24:53 -0300
 Processing by HomeController#index as HTML
-  Rendered home/index.html.erb within layouts/application (3.2ms)
-Completed 200 OK in 127ms (Views: 108.7ms | ActiveRecord: 0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 78ms (Views: 77.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:25:14 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 77ms (Views: 75.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:25:47 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 49ms (Views: 47.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:26:14 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:26:28 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:27:02 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:27:20 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:27:43 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 66ms (Views: 65.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:27:53 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 65ms (Views: 64.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:28:11 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 67ms (Views: 66.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:29:40 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:29:56 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:30:26 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:31:46 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 17:52:07 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:04:01 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 78ms (Views: 77.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:05:16 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 38ms (Views: 37.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:06:07 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 154ms (Views: 152.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:06:17 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 64ms (Views: 63.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:06:33 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 73ms (Views: 72.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:06:38 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 68ms (Views: 66.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:07:36 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 71ms (Views: 69.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:07:55 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 70ms (Views: 69.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:08:02 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 35ms (Views: 33.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:08:38 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:09:03 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (36.0ms)
+Completed 200 OK in 48ms (Views: 46.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:09:45 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 76ms (Views: 74.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:09:53 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 86ms (Views: 85.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:10:04 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 38ms (Views: 37.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:10:14 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 88ms (Views: 87.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:10:29 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 77ms (Views: 76.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:10:48 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 72ms (Views: 71.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:11:01 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 37ms (Views: 36.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:11:10 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 68ms (Views: 67.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:11:19 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 67ms (Views: 66.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:11:40 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 37ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:13:54 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:14:13 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:16:19 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 20ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:16:50 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 84ms (Views: 82.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:16:58 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 66ms (Views: 65.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:17:03 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 80ms (Views: 78.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:17:09 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 82ms (Views: 81.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:17:18 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 42ms (Views: 40.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:17:29 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 86ms (Views: 84.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:17:35 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 69ms (Views: 67.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:17:47 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 78ms (Views: 77.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:18:05 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 41ms (Views: 39.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:18:11 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 78ms (Views: 76.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:18:18 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 70ms (Views: 68.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:18:33 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 69ms (Views: 67.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:18:50 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 66ms (Views: 65.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:18:57 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 87ms (Views: 86.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:19:21 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 77ms (Views: 76.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:19:34 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 35ms (Views: 34.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:19:49 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 66ms (Views: 65.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:20:08 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 71ms (Views: 70.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:21:19 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 44ms (Views: 42.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:22:26 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 87ms (Views: 85.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:27:22 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 45ms (Views: 44.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:27:39 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 74ms (Views: 73.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:27:44 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 73ms (Views: 71.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:27:50 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 72ms (Views: 70.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:28:05 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:32:10 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:32:31 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:36:15 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 23ms (Views: 20.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:36:55 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:37:14 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:38:16 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 51ms (Views: 49.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:41:46 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:44:35 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:44:43 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:45:45 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (50.8ms)
+Completed 200 OK in 107ms (Views: 105.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:49:24 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:49:45 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 16ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:49:51 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 51ms (Views: 49.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:50:12 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:50:35 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 16ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:52:13 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:54:30 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:56:07 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 47ms (Views: 45.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:56:28 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 14ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:56:45 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:57:47 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:57:55 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:58:47 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 49ms (Views: 48.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 18:59:37 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 19:00:27 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 659ms (Views: 657.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 19:01:58 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 48ms (Views: 46.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 19:02:13 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 40ms (Views: 39.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 19:02:28 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 69ms (Views: 68.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 19:02:37 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 79ms (Views: 78.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 19:02:47 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 72ms (Views: 70.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 19:03:13 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 70ms (Views: 68.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 19:03:19 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 74ms (Views: 73.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 19:03:28 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 74ms (Views: 73.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 19:04:16 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 72ms (Views: 70.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 19:04:29 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 36ms (Views: 35.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 19:05:50 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 34ms (Views: 33.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 19:06:56 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 19:06:59 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 19:07:05 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 19:07:19 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 18ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 19:07:34 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-18 09:05:55 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 45ms (Views: 35.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-18 09:10:29 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 200ms (Views: 176.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-18 09:13:15 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-18 09:14:09 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 16ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-18 09:14:22 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 14ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-18 09:14:43 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-18 09:15:08 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 58ms (Views: 56.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-18 09:22:11 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 171ms (Views: 151.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-18 09:22:28 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 173ms (Views: 154.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-18 09:23:35 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-18 09:24:16 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-18 09:25:01 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-18 09:25:19 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-18 09:27:16 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 15ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-18 09:27:57 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 79ms (Views: 77.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-18 09:28:13 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 57ms (Views: 55.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-18 09:28:44 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 75ms (Views: 74.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-18 09:28:59 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 105ms (Views: 103.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-18 09:29:16 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 69ms (Views: 34.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-18 09:30:50 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-18 09:31:06 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-18 09:31:19 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)

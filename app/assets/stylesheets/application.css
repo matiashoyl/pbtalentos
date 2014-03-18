@@ -10,6 +10,8 @@
  *
  *= require_self
  *= require bootstrap
+ *= require flexslider
  *= require font-awesome
- *= require style
+ *= require designr-theme-cyan
+ *= require_tree .
  */

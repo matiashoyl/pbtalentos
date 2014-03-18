@@ -1,344 +1,281 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US" class="no-js">
   <head>
+
+    <!-- ==============================================
+    Title and Meta Tags
+    =============================================== -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <title>PB Talentos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>SUMMIT - WebDesignCrowd</title>
+    <!-- ==============================================
+    Favicons
+    =============================================== -->
+    <link rel="shortcut icon" href="assets/favicon.ico">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/apple-touch-icon-114x114.png">
     
-
-    <!-- Montserrat Sans -->
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400, 700' rel='stylesheet' type='text/css'>        
-    <!-- Lato Font -->
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css'>
-
-
+    
+    <!-- ==============================================
+    Fonts
+    =============================================== -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic,900' rel='stylesheet' type='text/css'>
+    
   </head>
-
-  <body class="blue">
-   
-    <div id="navbar" class="navbar navbar-inverse">
+  
+  <body data-spy="scroll" data-target="#main-nav" data-offset="200">
+  
+    <!-- ==============================================
+    MAIN NAV
+    =============================================== -->
+    <div id="main-nav" class="navbar navbar-fixed-top">
       <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand scroll" href="#home"><img class="img-responsive" src="assets/logo-completo.png" alt=""></a>
-        </div>
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li><a class="scroll hidden" href="#home"></a></li>
-            <li><a class="scroll" href="#services">VALORES</a></li>
-            <li><a class="scroll" href="#clients">MISIÓN</a></li>
-            <li><a class="scroll" href="#portfolio">VISIÓN</a></li>
-            <li><a class="scroll" href="#team">EQUIPO</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>    
-    <!-- All Page Modals -->      
-    <div class="modals">
-      <div class="modal fade" id="contact-form" tabindex="-1" role="dialog">
-        <div class="wrapper">
-
-          <div class="container text-center">
-            <a class="close" data-dismiss="modal" href=""><i class="icon-remove"></i></a>            
-            <h1 class="text-center">Contact Us</h1>
-
-            <form role="form">
-              <div class="form-group">
-                <label for="exampleInputName"><i class="icon-tag"></i></label>
-                <input type="text" class="form-control" id="exampleInputName" placeholder="Full Name" required>
-                <div class="clearfix"></div>
-              </div>
-              <div class="form-group">
-                <label for="exampleInputEmail1"><i class="icon-inbox"></i></label>
-                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" required>
-                <div class="clearfix"></div>
-              </div>
-              <div class="form-group textarea">
-                <label for="exampleInputMessage"><i class="icon-pencil"></i></label>
-                <textarea rows="6" class="form-control" id="exampleInputMessage" placeholder="Write Message" required></textarea>
-                <div class="clearfix"></div>
-              </div>
-
-              <button type="submit" class="btn">SEND MESSAGE</button>
-            </form>
-          </div>
-
-        </div><!-- /.content -->      
-      </div><!-- /.modal -->      
-      <div class="modal fade" id="modal1" tabindex="-1" role="dialog">
-        <div class="wrapper">
-          <img data-dismiss="modal" class="img-responsive" src="assets/sintel-bedroom.png" alt="">
-          <h2 class="modal-title"><a href="http://sintel.org">Sintel Bedroom</a></h2>
-        </div><!-- /.content -->      
-      </div><!-- /.modal -->
-      <div class="modal fade" id="modal2" tabindex="-1" role="dialog">
-        <div class="wrapper">
-          <img data-dismiss="modal" class="img-responsive" src="assets/sintel-snowscape.jpg" alt="">
-          <h2 class="modal-title"><a href="http://sintel.org">Sintel Snowscape</a></h2>
-        </div><!-- /.content -->      
-      </div><!-- /.modal -->
-      <div class="modal fade" id="modal3" tabindex="-1" role="dialog">
-        <div class="wrapper">
-          <img data-dismiss="modal" class="img-responsive" src="assets/sintel-wallpaper-ishtar.jpg" alt="">
-          <h2 class="modal-title"><a href="http://sintel.org">Sintel Wallpaper Ishtar</a></h2>
-        </div><!-- /.content -->      
-      </div><!-- /.modal -->
-      <div class="modal fade" id="modal4" tabindex="-1" role="dialog">
-        <div class="wrapper">
-          <img data-dismiss="modal" class="img-responsive" src="assets/sintel-bamboo-2.jpg" alt="">
-          <h2 class="modal-title"><a href="http://sintel.org">Sintel Bamboo</a></h2>
-        </div><!-- /.content -->      
-      </div><!-- /.modal -->
-      <div class="modal fade" id="modal5" tabindex="-1" role="dialog">
-        <div class="wrapper">
-          <img data-dismiss="modal" class="img-responsive" src="assets/ishtar-alley.png" alt="">
-          <h2 class="modal-title"><a href="http://sintel.org">Ishtar Alley</a></h2>
-        </div><!-- /.content -->      
-      </div><!-- /.modal -->
-      <div class="modal fade" id="modal6" tabindex="-1" role="dialog">
-        <div class="wrapper">
-          <img data-dismiss="modal" class="img-responsive" src="assets/sintel-town-concept.jpg" alt="">
-          <h2 class="modal-title"><a href="http://sintel.org">Sintel Town Concept</a></h2>
-        </div><!-- /.content -->      
-      </div><!-- /.modal -->
-    </div><!-- /.modals -->
-    
-    
-    <!-- Home Section -->
-    <div id="home" class="section">   
-      <div class="row">
-        <div class="col-md-1 col-sm-1 col-xs-12 empty"></div>
-        <div class="col-md-10 col-sm-10 col-xs-12 full">
-          <div class="logo"><img class="img-responsive" src="assets/logo.png" alt=""></div>
-          <h1 class="welcome">
-            Búsqueda de Talentos<br /><br />
-            <span>Buscamos los mejores profesionales del mercado en forma profesional y transparente, priorizando las necesidades de nuestros clientes en forma personalizada.</span>
-          </h1> 
-          <div class="call-to-action">
-            <a class="btn scroll" href="#services"><i class="fa fa-angle-down"></i>CONÓCENOS</a>
-          </div>   
-        </div>
-        <div class="col-md-1 col-sm-1 col-xs-12 empty"></div>
-      </div>   
-      <div class="parallax"><img src="assets/edificios.png"></div>  
-    </div><!-- /.container -->
-    <div id="services" class="section gray">
-      <div class="container">
-
-        <div class="content">
-          <div class="text-center">
-            <h2 class="title">Valores</h2>            
-          </div>
-          <br /><br />
-          <div class="row">
-            <div class="col-md-3 col-sm-6 col-xs-12">
-              <div class="service">
-                <div class="icon-wrapper">
-                  <span class="circle"><i class="fa fa-group"></i></span>
-                </div>
-                <h3>Respeto por las personas</h3>             
-              </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-              <div class="service">
-                <div class="icon-wrapper">
-                  <span class="circle"><i class="fa fa-suitcase"></i></span>
-                </div>
-                <h3>Profesionalismo</h3>               
-              </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-              <div class="service">
-                <div class="icon-wrapper">
-                  <span class="circle"><i class="fa fa-lock"></i></span>
-                </div>
-                <h3>Confidencialidad</h3>              
-              </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-              <div class="service">
-                <div class="icon-wrapper">
-                  <span class="circle"><i class="fa fa-eye"></i></span>
-                </div>
-                <h3>Transparencia</h3>               
-              </div>
-            </div>
-          </div>
-
-
-        </div><!-- /.content -->
-      </div>
-    </div>
-    <div id="clients" class="section dark">
-      <div class="parallax"><img src="assets/night-mountains.png"></div>
-      <div class="container">
-        <div class="content">
-          <div class="text-center">
-            <h2 class="title">Misión</h2>            
-          </div>
-          <div class="row">
-            <div class="col-md-2 col-sm-2 col-xs-12"></div>
-            <div class="col-md-8 col-sm-8 col-xs-12">
-              <p class="description">Buscamos los mejores profesionales del mercado en forma profesional y transparente, priorizando las necesidades de nuestros clientes en forma personalizada
-                </p>
-            </div>
-            <div class="col-md-2 col-sm-2 col-xs-12"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div id="portfolio" class="section gray">
-      <div class="container">  
-        <div class="content">
-          <div class="text-center">
-            <h2 class="title">Visión</h2>            
-          </div>
-          <div class="row">
-            <div class="col-md-2 col-sm-2 col-xs-12"></div>
-            <div class="col-md-8 col-sm-8 col-xs-12">
-              <p class="description">Ser reconocidos como los mejores buscadores de talentos del mercado.
-                </p>
-            </div>
-            <div class="col-md-2 col-sm-2 col-xs-12"></div>
-          </div>
-
-        </div><!-- /.content -->  
-        
       
-    </div><!-- /.container -->  
-
-
-
-    <!-- Meet the Team Section -->
-    <div id="team" class="section dark">
-      <div class="parallax"><img src="assets/night-mountains.png"></div>
+        <div class="navbar-header">
+        
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#site-nav">
+            <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+          </button>
+          
+          <!-- ======= LOGO ========-->
+          <a class="navbar-brand scrollto" href="#home"></a>
+          <!-- <a class="navbar-brand scrollto ir-logo" href="#">JOHN DOE<br><span>UI Designer</span></a> -->
+        
+        </div>
+        
+        <div id="site-nav" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#services" class="scrollto">VALORES</a>
+            </li>
+            <li>
+              <a href="#mision" class="scrollto">MISIÓN</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="scrollto">VISIÓN</a>
+            </li>
+            <li>
+              <a href="#about" class="scrollto">EQUIPO</a>
+            </li>
+            <li>
+              <a href="#contact" class="scrollto">CONTACTO</a>
+            </li>
+          </ul>
+        </div><!--End navbar-collapse -->
+        
+      </div><!--End container -->
+      
+    </div><!--End main-nav -->
+    
+    <!-- ==============================================
+    HEADER
+    =============================================== -->
+    <header id="home" class="jumbotron">
+    
       <div class="container">
-        <div class="content">
-          <div class="text-center">
-            <h2 class="title">Equipo</h2>            
-          </div>
-          <br /><br />
+      
+        
+        
+      </div><!--End container -->
+      
+    </header><!--End header -->
 
-          <div class="row">
-            <div class="col-md-6 col-sm-6 col-xs-12">
-              <div class="wrapper">
-                <a href="#" class="portrait-wrapper">                  
-                  <img class="portrait" src="assets/portrait1.jpg">
-                  <span class="overlay"><span class="valign"></span><i class="fa fa-envelope"></i></span>              
-                </a>
-                <div class="text-center">
-                  <h3>Patricia Bittencourt Campusano</h3>
-                  <p>Socia PB Talentos</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
-              <div class="wrapper">
-                <a href="#" class="portrait-wrapper">                  
-                  <img class="portrait" src="assets/portrait2.jpg">
-                  <span class="overlay"><span class="valign"></span><i class="fa fa-envelope"></i></span>              
-                </a>
-                <div class="text-center">
-                  <h3>José Ignacio Infante Montes</h3>
-                  <p>Socio PB Talentos</p>
-                </div>
-              </div>
-            </div>
+    <!-- ==============================================
+    SERVICES
+    =============================================== -->
+    <section id="services">
+    
+      <div class="container">
+      
+        <h1 class="section-title scrollimation fade-in">Valores</h1>
+        
+        <div class="row services">
+          <div class="col-md-3 text-center scrollimation fade-right">
+            <a class="icon"><i class="fa fa-group"></i></a>
+            <h2>Respeto por las personas</h2>
+          </div>
+          <div class="col-md-3 text-center scrollimation fade-right">
+            <a class="icon"><i class="fa fa-suitcase"></i></a>
+            <h2>Profesionalismo</h2>
+          </div>
+          <div class="col-md-3 text-center scrollimation fade-left">
+            <a class="icon"><i class="fa fa-lock"></i></a>
+            <h2>Confidencialidad</h2>
+          </div>
+          <div class="col-md-3 text-center scrollimation fade-left">
+            <a class="icon"><i class="fa fa-eye"></i></a>
+            <h2>Transparencia</h2>
+          </div>
+        </div><!--End row (top) -->
+        
+      </div><!--End container -->
+      
+    </section><!--End services section-->
+    
+    <!-- ==============================================
+    MISION
+    =============================================== -->   
+    <section id="mision">
+    
+      <div class="container">
+      
+        
+        <h1 class="section-title scrollimation fade-in">Misión</h1>
+        <div class="row">
+          <div class="col-sm-10 col-sm-offset-1 scrollimation fade-in">
+            
+            <p>Buscamos los mejores talentos del mercado en forma profesional y transparente, priorizando las necesidades de nuestros clientes en forma personalizada.</p>
+          </div>
+        </div><!--End row -->
+        
+      </div><!--End container -->
+      
+    </section><!--End about section -->
+  
+  
+    <!-- ==============================================
+    PORTFOLIO
+    =============================================== -->   
+    <section  id="portfolio">
+    
+      <div id="portfolio-header" class="text-center">
+        
+        <h1 class="section-title scrollimation fade-in">Visión</h1>
+        
+        <!--==== Portfolio Filters ====-->
+        <div id="filter-works scrollimation fade-in">
+          <p>Ser reconocidos como los mejores buscadores de talentos del mercado.</p>
+        </div><!--End portfolio filters -->
+        
+      </div><!--End portfolio header -->
+      
+    </section><!-- End portfolio section -->
+
+    <section id="about">
+    
+      <div class="container">
+      
+        <div class="row">
+          <h2 class="section-title scrollimation fade-in">Equipo</h2>
+          <div class="col-sm-3 col-sm-offset-1 scrollimation fade-right">
+            <img class="img-responsive img-center" src="assets/Patricia.jpg" alt="">
+          </div>
+          <div class="col-sm-7 col-sm-offset-1 scrollimation fade-left">
+            <h1>Patricia Bittencourt Campusano<br /><span>Socia PB Talentos</span></h1>
+            <p>Profesional con 18 años de experiencia en la Búsqueda de ejecutivos, siendo pionera en el mercado.  Fundadora  de las consultoras Boyden  y Downing Teal en Chile. Directora de Research de Spencer Stuart por cuatro años y actual Socia de PB Talentos.</p>
+            <p>Con experiencia previa en las áreas de finanzas, bancaria y  recursos humanos en reconocidas multinacionales entre las que se destacan  Citibank N.A. y Price Waterhouse.</p>
+            <p>Patricia es Contador Auditor de la Universidad Católica de Valparaíso (UCV). </p>
+          </div>
+        </div><!--End row -->
+        <div class="row"><br /><br /></div>
+        <div class="row">
+          <div class="col-sm-7 col-sm-offset-1 scrollimation fade-right">
+            <h1>José Ignacio Infante Montes<br /><span>Socia PB Talentos</span></h1>
+            <p>Profesional con 29 años de experiencia en las áreas de RRHH y Finanzas, habiéndose desempeñado como Director de Recursos Humanos en importantes compañías multinacionales entre otras Shell, Claro y BHP Billiton. Ha sido profesor universitario en programas de MBA en el tema de RRHH.</p>
+            <p>José Ignacio es Contador Auditor de la Universidad de Santiago (USACH) y posee un Postgrado en International Business en la Universidad de California en Los Angeles (UCLA).</p>
+          </div>
+          <div class="col-sm-3 col-sm-offset-1 scrollimation fade-left">
+            <img class="img-responsive img-center" src="assets/JoseIgnacio.jpg" alt="">
+          </div>
+        </div><!--End row -->
+        
+      </div><!--End container -->
+      
+    </section><!--End about section -->
+
+    <!-- ==============================================
+    CONTACT
+    =============================================== --> 
+    <section  id="contact">
+    
+      <div class="container">
+      
+        <h1 class="section-title scrollimation fade-in">Contacto</h1>
+        
+        <div class="row">
+        
+          <div class="col-sm-5 contact-info scrollimation fade-right">
+            
+            <p><i class="fa fa-user"></i> Patricia Bittencourt<br /><i class="fa fa-envelope"></i> pbittencourt@pbtalentos.com<br /><i class="fa fa-phone"></i> 562 2594 7530</p>
+            
+            <p><i class="fa fa-user"></i> José Ignacio Infante<br /><i class="fa fa-envelope"></i> jinfante@pbtalentos.com<br /><i class="fa fa-phone"></i> 562 2594 7530 </p>
+            
+            <p><i class="fa fa-map-marker"></i> El Golf 40, Piso 12</p>
             
           </div>
           
-        </div><!-- /.content -->
-      </div>
-    </div>
+          <!--=== Contact Form ===-->
 
-
-
+          <form id="contact-form" class="col-sm-7 scrollimation fade-left" action="contact.php" method="post" novalidate>
+            
+            <div class="form-group">
+              <label class="control-label" for="contact-name">Nombre</label>
+              <div class="controls">
+              <i class="fa fa-user"></i>
+              <input id="contact-name" name="contactName" placeholder="Nombre" class="form-control input-lg requiredField" type="text" data-error-empty="Please enter your name">
+              </div>
+            </div><!-- End name input -->
+            
+            <div class="form-group">
+              <label class="control-label" for="contact-mail">Email</label>
+              <div class=" controls">
+              <i class="fa fa-envelope"></i>
+              <input id="contact-mail" name="email" placeholder="Email" class="form-control input-lg requiredField" type="email" data-error-empty="Please enter your email" data-error-invalid="Invalid email address">
+              </div>
+            </div><!-- End email input -->
+            
+            <div class="form-group">
+              <label class="control-label" for="contact-message">Mensaje</label>
+              <div class="controls">
+                <i class="fa fa-comment"></i>
+                <textarea id="contact-message" name="comments"  placeholder="Mensaje" class="form-control input-lg requiredField" rows="5" data-error-empty="Please enter your message"></textarea>
+              </div>
+            </div><!-- End textarea -->
+            
+            <p><button name="submit" type="submit" class="btn btn-theme btn-lg" data-error-message="Error!" data-sending-message="Enviando..." data-ok-message="Mensaje Enviado"><i class="fa fa-location-arrow"></i> Enviar Mensaje</button></p>
+            <input type="hidden" name="submitted" id="submitted" value="true" />
+            
+          </form><!-- End contact-form -->
+          
+        </div><!-- End row -->
+        
+      </div><!-- End container -->
+      
+    </section><!-- End contact section -->
     
-    <div id="contact" class="section footer-padding">
-      <div class="container no-bottom">
-        <div class="content">
-          <div class="text-center">
-            <h2 class="title">Contacto</h2>            
-          </div>
-        </div>
-      </div>
-      <div class="container no-pad">
-        <div class="content">
-          <div class="row">
-            <div class="col-md-6 col-sm-6 col-xs-12">
-              <p class="icon-description">
-                <span class="icon-wrapper">
-                  <span class="circle"><i class="fa fa-map-marker"></i></span>
-                </span>
-                123 Broadway, Manhattan, NY 10282
-              </p>
-              <p class="icon-description">
-                <span class="icon-wrapper">
-                  <span class="circle"><i class="fa fa-phone"></i></span>
-                </span>
-                (123) 123-1234
-              </p>
-              <p class="icon-description">
-                <span class="icon-wrapper">
-                  <span class="circle"><i class="fa fa-envelope"></i></span>
-                </span>
-                WebDesignCrowd@gmail.com
-              </p>
-            </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
-              <div id="map-canvas"></div>
-            </div>
-          </div>
-        </div>
-      </div>
+    <!-- ==============================================
+    FOOTER
+    =============================================== --> 
+    <footer id="main-footer">
+    
       <div class="container">
-        <h2>Envíanos un mensaje</h2>
-
-        <div class="content">
-          <form role="form">
-            <div class="form-group">
-              <label for="exampleInputName"><i class="icon-tag"></i></label>
-              <input type="text" class="form-control" id="exampleInputName" placeholder="Nombre" required>
-              <div class="clearfix"></div>
-            </div>
-            <div class="form-group">
-              <label for="exampleInputEmail1"><i class="icon-inbox"></i></label>
-              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" required>
-              <div class="clearfix"></div>
-            </div>
-            <div class="form-group textarea">
-              <label for="exampleInputMessage"><i class="icon-pencil"></i></label>
-              <textarea rows="6" class="form-control" id="exampleInputMessage" placeholder="Mensaje" required></textarea>
-              <div class="clearfix"></div>
-            </div>
-
-            <button type="submit" class="btn color">ENVIAR MENSAJE</button>
-          </form>         
-        </div>
-      </div>
-    </div><!-- /.container -->
-
-    <div id="footer" class="section">
-      <div class="container">
+      
         <div class="row">
-          <div class="col-md-6 col-sm-6 col-xs-12">
-            <p>Desarrollado por <a href="mailto:matiashoyl@gmail.com">Matías Hoyl</a></p>   
+        
+          <div class="col-sm-6 left-col">
+            <img class="img-responsive img-left" src="assets/logo.png" alt="">
           </div>
-        </div>
-      </div>  
-    </div>
-
-    <script type="text/javascript"
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDAe64UN6rxbgDo8hzspyTofIGXBiNcE_U&sensor=false">
-    </script>
-
+          
+          <div class="col-sm-6 right-col">
+            <ul class="footer-nav">
+              <li><a class="scrollto" href="#home">Home</a></li>
+              <li><a class="scrollto" href="#services">Valores</a></li>
+              <li><a class="scrollto" href="#mision">Misión</a></li>
+              <li><a class="scrollto" href="#portfolio">Visión</a></li>
+               <li><a class="scrollto" href="#about">Equipo</a></li>
+              <li><a class="scrollto" href="#contact">Contacto</a></li>
+            </ul>
+          </div>
+          
+        </div><!-- End row -->
+        
+      </div><!-- End container -->
+      
+    </footer><!-- End footer -->
+    
   </body>
+  
 </html>

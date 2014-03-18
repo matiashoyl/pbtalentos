@@ -10,12 +10,17 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require jquery-1.9.1.min
-//= require modernizr.custom
-//= require masonry.pkgd.min
-//= require imagesloaded.pkgd.min
-//= require bootstrap.min
-//= require classie
-//= require AnimOnScroll
-//= require init
+//= require libs/modernizr.min
+//= require jquery
+//= require jquery.scrollto
+//= require jquery.flexslider.min
+//= require twitterFetcher_v10_min
+//= require jquery.masonry.min
+//= require waypoints.min
+//= require jquery_ujs
+//= require jquery.easypiechart
+//= require jquery.backstretch
+//= require libs/bootstrap
+//= require contact
+//= require designr
 //= require_tree .

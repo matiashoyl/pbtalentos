@@ -24,5 +24,5 @@ compiling statement.c
 linking shared-object sqlite3/sqlite3_native.bundle
 
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 sqlite3_native.bundle ./.gem.20140313-25670-15d0o27/sqlite3
+/usr/bin/install -c -m 0755 sqlite3_native.bundle ./.gem.20140315-42825-9a4hi2/sqlite3
 installing default sqlite3_native libraries
