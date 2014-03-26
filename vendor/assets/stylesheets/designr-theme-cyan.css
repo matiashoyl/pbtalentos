@@ -317,7 +317,7 @@ body {
 
 .jumbotron {
     background:transparent;
-    color:#c5b199;
+    color:#fff;
 }
 
 header.jumbotron{
@@ -332,16 +332,14 @@ header.jumbotron{
 }
 
 .jumbotron .message-box{
-    width:90%;
+    width:70%;
     margin:300px auto 0;
-	background:#fff;
-    background:rgba(255,255,255,0.9);
     padding:20px 0;
 }
 
 .jumbotron .left-col{
-	width:35%;
-    text-align:right;
+	width:100%;
+    text-align:center;
 }
 
 .jumbotron .right-col{
@@ -359,8 +357,8 @@ header.jumbotron{
     display:inline-block;
     margin:0;
     padding:18px 5px 12px 30px;
-    font-size:38px;
-    font-weight:300;
+    font-size:30px;
+    font-weight:100;
     line-height:48px;
 }
 
@@ -581,7 +579,7 @@ header.jumbotron{
     line-height:64px;
     font-weight:300;
     text-align: center;
-    margin-bottom:24px;
+    margin-bottom:40px;
     position:relative;
 }
 
@@ -603,6 +601,47 @@ header.jumbotron{
 }
 
 #mision img {
+    box-shadow:12px 0px 0px 12px rgba(255,255,255,0.2),
+                -12px 0px 0px 12px rgba(255,255,255,0.2);
+}
+
+/*-----------------------
+------Vision Styles-------
+------------------------*/
+
+#vision {
+    color:#fff;
+    padding:80px 0;
+}
+
+#vision h1 {
+    color:#fff;
+    font-size:48px;
+    line-height:64px;
+    font-weight:300;
+    text-align: center;
+    margin-bottom:40px;
+    position:relative;
+}
+
+#vision p {
+    font-size:24px;
+    line-height:36px;
+    font-weight:100;
+    margin-bottom:42px;
+    text-align: center;
+}
+
+#vision a:hover{
+    text-decoration:underline;
+} 
+
+#vision .btn-theme.transparent {
+    font-size:18px;
+    text-decoration:none;
+}
+
+#vision img {
     box-shadow:12px 0px 0px 12px rgba(255,255,255,0.2),
                 -12px 0px 0px 12px rgba(255,255,255,0.2);
 }
@@ -1163,9 +1202,9 @@ header.jumbotron{
 
 #contact .contact-info p,
 #contact .contact-info address{
-    margin:0 0 30px;
+    margin:0 0 50px;
     font-size:24px;
-    line-height:50px;
+    line-height:35px;
     font-weight:100;
 }
 
@@ -1190,7 +1229,7 @@ header.jumbotron{
     width:48px;
     height:48px;
     font-size:32px;
-    line-height:48px;
+    line-height:55px;
     text-align:center;
     text-decoration:none;
     margin:0;

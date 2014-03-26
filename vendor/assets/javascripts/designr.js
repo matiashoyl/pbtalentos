@@ -216,6 +216,7 @@ $(document).ready(function() {
 	$.backstretch('assets/header-bg.jpg');
 
 	$('body').append('<img class="preload-image" src="assets/contact-bg.jpg" style="display:none;"/>');
+	$('body').append('<img class="preload-image" src="assets/vision-bg.jpg" style="display:none;"/>');
 
 	$('#about').waypoint(function(direction){
 	
@@ -225,6 +226,19 @@ $(document).ready(function() {
 	
 		if (direction=='down'){
 			$.backstretch('assets/contact-bg.jpg');
+		}else{
+			$.backstretch('assets/vision-bg.jpg');
+		}
+	});
+
+	$('#services').waypoint(function(direction){
+	
+		if($('.preload-image').length){$('.preload-image').remove();}
+		
+		$('.backstretch').remove();
+	
+		if (direction=='down'){
+			$.backstretch('assets/vision-bg.jpg');
 		}else{
 			$.backstretch('assets/header-bg.jpg');
 		}
